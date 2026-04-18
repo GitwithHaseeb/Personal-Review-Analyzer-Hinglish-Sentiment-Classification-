@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training / HF
+outputs/
+checkpoints/
+runs/
+wandb/
+*.pt
+.cache/
+models_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local user feedback (optional — remove line if you want to track)
+# data/user_labeled_feedback.csv
